@@ -1,7 +1,7 @@
 * {
   all: unset;
   font-size: 12px;
-  font-family: "SpaceMono Nerd Font";
+  font-family: "JetBrainsMono Nerd Font Mono";
   transition: 200ms;
 }
 
@@ -103,7 +103,7 @@ slider {
   box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.5), inset 0 0 0 1px #313244;
   border-radius: 12.6px;
   margin: 18px;
-  background-image: linear-gradient(-45deg,rgba(30, 40, 76, 0.8) 0%, rgba(29, 86, 52, 0.5) 70%, rgba(116, 105, 12, 0.5) 100%);
+  background-image: linear-gradient(-45deg,rgba(30, 40, 76, 0.8) 0%, rgba(29, 86, 52, 0.7) 70%, rgba(116, 105, 12, 0.7) 100%);
   /*background-color: rgba(30, 30, 46, 0.8);*/
   color: #94e2d5;
   padding: 14px;
@@ -276,7 +276,8 @@ slider {
 }
 
 .widget-mpris .widget-mpris-player {
-  background: #313244;
+  color: #103b34;
+  background: linear-gradient(90deg,rgba(42, 123, 155, 0.7) 0%, rgba(87, 199, 133, 0.7) 50%, rgba(237, 221, 83, 0.7) 100%);
   padding: 7px;
   border: 2px solid #94e2d5;
 }
