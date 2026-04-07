@@ -31,7 +31,7 @@ slider {
   box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.6);
   border-radius: 16px;
   margin: 10px 18px;
-  background-color: rgba(21, 20, 30, 0.85);
+  background-color: rgba(17, 19, 24, 0.97);
   color: #e1e2e9;
   padding: 0;
   border: 1px solid rgba(255,255,255,0.06);
@@ -140,9 +140,9 @@ slider {
 .control-center .notification-row .notification-background {
   border-radius: 12px;
   color: #e1e2e9;
-  background-color: rgba(255,255,255,0.04);
+  background-color: rgba(17, 19, 24, 0.95);
   border: 1px solid rgba(255,255,255,0.06);
-  margin-top: 10px;
+  margin-top: 8px;
 }
 
 .control-center .notification-row .notification-background .notification {
