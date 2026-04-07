@@ -283,7 +283,7 @@ slider {
   opacity: 0.15;
   margin: -2px;
   padding: 0;
-  min-height: 100%;
+  min-height: 140px;
 }
 
 .widget-mpris .widget-mpris-player image {
