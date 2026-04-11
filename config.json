@@ -28,6 +28,20 @@
     "hide-on-clear": true,
     "hide-on-action": true,
     "script-fail-notify": true,
+    "scripts": {
+        "critical-alert": {
+            "exec": "bash ~/.config/swaync/on-notify.sh Critical",
+            "urgency": "Critical"
+        },
+        "normal-alert": {
+            "exec": "bash ~/.config/swaync/on-notify.sh Normal",
+            "urgency": "Normal"
+        },
+        "low-alert": {
+            "exec": "bash ~/.config/swaync/on-notify.sh Low",
+            "urgency": "Low"
+        }
+    },
     "widgets": [
        	"dnd",
         "buttons-grid",
